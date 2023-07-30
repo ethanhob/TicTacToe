@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bacasime Antique', serif;
+    margin-top: 20px;
+    
+}
+.heading{
+font-size: 32px;
+text-align: center;
+font-weight: 700;
+color: red
+}
+table td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid grey;
+    font-size: 50px;
+    color: red;
+}
+.result{
+font-size: 32px;
+font-weight: 700;
+text-shadow: 3px 3px 3px rgba(255, 124, 124, 0.801);
+color: red
+}
+.button{
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 3px 3px;
+    background-color: red;
+    cursor: pointer;
+    color: whitesmoke;
+    font-family: 'Bacasime Antique', serif;
+
+}
+.button:hover{
+    margin-top: 5px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: red;
+    cursor: pointer;
+    font-family: 'Bacasime Antique', serif;
+}
